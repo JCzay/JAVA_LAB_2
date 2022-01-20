@@ -9,6 +9,20 @@ public class Main {
           to dać komunikat "liczba XX podzielna przez YY" (XX-liczba podzielna YY-podzielnik)
         */
 
+        // Ćwiczenie 1
+        // Mój numer indeksu to: 57652
+
+        int i = 1000;
+        do {
+            System.out.println(i);
+            if (i % 52 == 0) {
+                System.out.println("Liczba " + i + " jest podzielna przez 52");
+            }
+        } while (--i > 0);
+
+
+
+
 
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
