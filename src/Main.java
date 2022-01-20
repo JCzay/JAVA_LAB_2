@@ -70,6 +70,7 @@ public class Main {
         tab2[3] = "U";
         tab2[4] = "J";
 
+
         int z = 4;
         while(z>=0){
             System.out.println(tab2[z]);
