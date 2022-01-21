@@ -39,7 +39,7 @@ public class Main {
         tab[4] = 11111;
 
         int j = 0;
-        while (j<5){
+        while (j < 5) {
             System.out.println("Element tablicy int = " + tab[j]);
             j++;
         }
@@ -55,7 +55,7 @@ public class Main {
         tab1[4] = 55.55;
 
         int k = 0;
-        while(k<5){
+        while (k < 5) {
             System.out.println("Element tablicy double = " + tab1[k]);
             k++;
         }
@@ -72,19 +72,28 @@ public class Main {
 
 
         int z = 4;
-        while(z>=0){
+        while (z >= 0) {
             System.out.println(tab2[z]);
             z--;
         }
-
-
-
-    }
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
         */
+
+        // Ćwiczenie 3
+
+        // a)
+
+        // true --> while(true) - wywołuję niekończącą się pętle
+
+        // b)
+
+        // false --> while(false) - kompilator nic nie zrobi
+
+    }
+
 
 
 }
