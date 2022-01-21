@@ -12,7 +12,8 @@ public class Main {
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
         // Ćwiczenie 1
-        // Mój numer indeksu: 57652
+
+        System.out.println("Mój numer indeksu to 57652, zatem ostanią liczbą jest 2");
 
         for(int k = 100; k > 0; k--) {
             if ( k % 2 == 0) {
