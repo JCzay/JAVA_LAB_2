@@ -42,6 +42,15 @@ public class Main {
 
         System.out.println("Zadanie 2");
 
+        String word = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
+        String tab[] = new String[5];
+        tab[1] = "o";
+        tab[2] = "p";
+        tab[3] = "x";
+        tab[4] = "z";
+        tab[5] = "q";
+
+
 
     }
 }
