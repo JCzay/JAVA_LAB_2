@@ -42,15 +42,33 @@ public class Main {
 
         System.out.println("Zadanie 2");
 
-        String word = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
-        String tab[] = new String[5];
-        tab[1] = "o";
-        tab[2] = "p";
-        tab[3] = "x";
-        tab[4] = "z";
-        tab[5] = "q";
+        String litery = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
+        int[] tablica = {0, 0, 0, 0, 0, 0};
+        for (char zmiennaChar : litery.toCharArray()) {
+            switch (zmiennaChar){
+                case 'o':
+                    ++tablica[0];
+                    break;
+                case 'p':
+                    ++tablica[1];
+                    break;
+                case 'x':
+                    ++tablica[2];
+                    break;
+                case 'z':
+                    ++tablica[3];
+                    break;
+                case 'q':
+                    ++tablica[4];
+                    break;
+                default:
+                    ++tablica[5];
+                    break;
+            }
+            System.out.printf("\nLitera występuje\no: %d - razy\np: %d - razy\nx: %d - razy\nz: %d - razy\nq: %d - razy\npozostałe: %d - razy",
+                    tablica[0], tablica[1], tablica[2], tablica[3], tablica[4], tablica[5]);
+        }
 
 
-
-    }
+        }
 }
