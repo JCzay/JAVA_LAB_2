@@ -14,11 +14,33 @@ public class Main {
           b) program który określi czy liczba jest podzielna przez 7
          */
 
+        System.out.println("Zadanie 1");
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Podaj liczbę: ");
+        int a = scan.nextInt();
+        switch (a%2){
+            case 0:
+                System.out.println("Twoja liczba jest parzysta!");
+                break;
+            default:
+                System.out.println("Twoja liczba nie jest parzysta!");
+        }
+
+        switch (a%7){
+            case 0:
+                System.out.println("Twoja liczba jest podzielna przez 7!");
+                break;
+            default:
+                System.out.println("Twoja liczba nie jest podzielna przez 7!");
+                break;
+        }
         /* zad.2
            a) napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x', 'z', 'q' w wyrazie:
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
            b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
          */
+
+        System.out.println("Zadanie 2");
 
 
     }
